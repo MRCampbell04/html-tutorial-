@@ -8,3 +8,18 @@ body{
 .sub_titles {
     font-size: 30px;
 }
+.nav_bar{
+    height:75px;
+    background-color: brown;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+  border: 2px black solid;
+  position:relative;
+  top:50%;
+}
+.logo_img{
+    height: 50px;
+    
+}
