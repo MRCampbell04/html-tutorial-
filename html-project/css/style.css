@@ -15,11 +15,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .sub_titles {
     
     font-size: 50px;
+    color: #ff6e2c;
 }
 .nav_bar {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between; /* Pushes items to edges */
+    justify-content: left; /* Pushes items to edges */
     align-items: center;           /* Centers vertically */
     padding: 1rem 2rem;            /* More breathing room */
     background: #2d2d2d;  
@@ -99,4 +100,53 @@ background-color: #292929;
 }
 .content {
     padding-top: 20px;
+}
+.form-fieldset{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f9f9f9;
+}
+table{
+    margin-bottom: 20px;
+    
+}
+.table-example {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    
+}
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.examples{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.listy{
+    font-size: 20px;
+}
+iframe{
+    
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:45%;
+}
+.tenor-gif-embed{
+ 
+    width:200px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left:31%;
 }
