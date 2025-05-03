@@ -2,7 +2,7 @@
 body{
     background-image:url(../images/background2.jpg) ;
     background-size: cover;
-    
+    background-attachment: fixed;
    margin-top:50px;
 }
 p{
